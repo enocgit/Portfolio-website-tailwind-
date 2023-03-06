@@ -68,7 +68,7 @@
   },
   "scripts": {
     "watch": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
-    "build": "tailwind build src/input.css -o dist/output.css"
+    "build": "tailwind build -i src/input.css -o dist/output.css"
   },
   "keywords": [],
   "author": "",
