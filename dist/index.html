@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- <link rel="stylesheet" href="/dist/output.style.css"> -->
-    <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.3/flowbite.min.css" rel="stylesheet" /> -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.3/flowbite.min.css" rel="stylesheet" />
 
     <link rel="stylesheet" href="href=https://fonts.googleapis.com/css?family=Inter">
     <script src="https://cdn.tailwindcss.com"></script>
@@ -67,7 +67,7 @@
     </section>
     
     <!-- About me -->
-    <section class="mt-28 min-h-[18rem] w-[100vw] sm:min-h-[34rem] text-[#D0F4E6] py-16 sm:py-0 bg-contain" style="background: url('../dist/assets/about_bg.png'); background-size: cover; background-repeat: no-repeat; background-position: center;">
+    <section class="mt-28 min-h-[18rem] w-[100vw] sm:min-h-[34rem] text-[#D0F4E6] py-16 sm:py-0 bg-[url('./assets/about_bg.png')] bg-cover bg-no-repeat bg-center">
         <div class="container w-[90vw] h-[16rem] sm:h-[initial] mx-auto my">
             <div class="block sm:flex items-center">
                 <div class="sm:mr-auto sm:w-[25rem] lg:w-[35rem]">
@@ -81,7 +81,7 @@
     </section>
 
     <!-- Showcase -->
-    <section class="min-h-[30vh] pt-16 bg-[url(./assets/showcase.png)] bg-cover bg-no-repeat bg-center shadow-md">
+    <section class="min-h-[30vh] pt-16 bg-[url(./assets/showcase.png)] bg-contain md:bg-cover bg-no-repeat bg-center shadow-md">
         <div class="container w-[90vw] mx-auto">
             <h2 class="text-center text-2xl font-bold">Showcase of Expertise</h2>
             <h3 class="text-center mt-3">A collection of My Latest Works</h3>
@@ -224,6 +224,8 @@
     <footer class="flex justify-center items-center ">
         <small class="pt-32 pb-5">Copyright &copy; Enoch Ansah</small>
     </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.3/flowbite.min.js"></script>
 
     <script src="/node_modules/flowbite/dist/flowbite.min.js"></script>
 </body>
