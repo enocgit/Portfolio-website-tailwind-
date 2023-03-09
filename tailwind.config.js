@@ -6,9 +6,9 @@ module.exports = {
   ],
   theme: {
     extend: {},
-    fontFamily: {
-      'inter': ['serif',]
-    },
+    // fontFamily: {
+    //   'inter': ['serif',]
+    // },
     // screens: {
     //   msm: '200px',
     //   sm: '640px',
